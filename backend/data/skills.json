@@ -1,0 +1,244 @@
+{
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "aliases": ["python", "py", "python3"]
+    },
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "aliases": ["java", "core java"]
+    },
+    {
+      "name": "C",
+      "category": "Programming Languages",
+      "aliases": ["c language", "c programming"]
+    },
+    {
+      "name": "C++",
+      "category": "Programming Languages",
+      "aliases": ["c++", "cpp"]
+    },
+    {
+      "name": "C#",
+      "category": "Programming Languages",
+      "aliases": ["c#", "csharp", "c sharp"]
+    },
+    {
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "aliases": ["javascript", "js", "es6", "ecmascript"]
+    },
+    {
+      "name": "TypeScript",
+      "category": "Programming Languages",
+      "aliases": ["typescript", "ts"]
+    },
+    {
+      "name": "HTML",
+      "category": "Frontend Development",
+      "aliases": ["html", "html5"]
+    },
+    {
+      "name": "CSS",
+      "category": "Frontend Development",
+      "aliases": ["css", "css3"]
+    },
+    {
+      "name": "React",
+      "category": "Frontend Development",
+      "aliases": ["react", "reactjs", "react.js"]
+    },
+    {
+      "name": "Angular",
+      "category": "Frontend Development",
+      "aliases": ["angular", "angularjs", "angular.js"]
+    },
+    {
+      "name": "Vue",
+      "category": "Frontend Development",
+      "aliases": ["vue", "vuejs", "vue.js"]
+    },
+    {
+      "name": "Next.js",
+      "category": "Frontend Development",
+      "aliases": ["nextjs", "next.js"]
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend Development",
+      "aliases": ["nodejs", "node.js", "node"]
+    },
+    {
+      "name": "Express.js",
+      "category": "Backend Development",
+      "aliases": ["express", "expressjs", "express.js"]
+    },
+    {
+      "name": "FastAPI",
+      "category": "Backend Development",
+      "aliases": ["fastapi", "fast api"]
+    },
+    {
+      "name": "Flask",
+      "category": "Backend Development",
+      "aliases": ["flask"]
+    },
+    {
+      "name": "Django",
+      "category": "Backend Development",
+      "aliases": ["django"]
+    },
+    {
+      "name": "REST API",
+      "category": "Backend Development",
+      "aliases": ["rest api", "rest apis", "restful api", "restful apis", "rest web services"]
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "aliases": ["sql"]
+    },
+    {
+      "name": "MySQL",
+      "category": "Databases",
+      "aliases": ["mysql"]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "aliases": ["postgresql", "postgres", "psql"]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "aliases": ["mongodb", "mongo db", "mongo"]
+    },
+    {
+      "name": "SQLite",
+      "category": "Databases",
+      "aliases": ["sqlite", "sqlite3"]
+    },
+    {
+      "name": "Redis",
+      "category": "Databases",
+      "aliases": ["redis"]
+    },
+    {
+      "name": "Git",
+      "category": "Tools & DevOps",
+      "aliases": ["git", "git vcs"]
+    },
+    {
+      "name": "GitHub",
+      "category": "Tools & DevOps",
+      "aliases": ["github"]
+    },
+    {
+      "name": "GitLab",
+      "category": "Tools & DevOps",
+      "aliases": ["gitlab"]
+    },
+    {
+      "name": "Docker",
+      "category": "Tools & DevOps",
+      "aliases": ["docker", "dockerfile", "containerization"]
+    },
+    {
+      "name": "Kubernetes",
+      "category": "Tools & DevOps",
+      "aliases": ["kubernetes", "k8s"]
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud & Infrastructure",
+      "aliases": ["aws", "amazon web services", "ec2", "s3"]
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud & Infrastructure",
+      "aliases": ["azure", "microsoft azure"]
+    },
+    {
+      "name": "GCP",
+      "category": "Cloud & Infrastructure",
+      "aliases": ["gcp", "google cloud", "google cloud platform"]
+    },
+    {
+      "name": "Power BI",
+      "category": "Data & BI",
+      "aliases": ["power bi", "powerbi"]
+    },
+    {
+      "name": "Tableau",
+      "category": "Data & BI",
+      "aliases": ["tableau"]
+    },
+    {
+      "name": "Excel",
+      "category": "Data & BI",
+      "aliases": ["excel", "ms excel", "microsoft excel", "spreadsheets"]
+    },
+    {
+      "name": "Pandas",
+      "category": "Data Science & ML",
+      "aliases": ["pandas"]
+    },
+    {
+      "name": "NumPy",
+      "category": "Data Science & ML",
+      "aliases": ["numpy"]
+    },
+    {
+      "name": "Scikit-learn",
+      "category": "Data Science & ML",
+      "aliases": ["scikit-learn", "scikit learn", "sklearn"]
+    },
+    {
+      "name": "TensorFlow",
+      "category": "Data Science & ML",
+      "aliases": ["tensorflow", "tf"]
+    },
+    {
+      "name": "PyTorch",
+      "category": "Data Science & ML",
+      "aliases": ["pytorch", "torch"]
+    },
+    {
+      "name": "Machine Learning",
+      "category": "Data Science & ML",
+      "aliases": ["machine learning", "ml"]
+    },
+    {
+      "name": "Deep Learning",
+      "category": "Data Science & ML",
+      "aliases": ["deep learning", "dl"]
+    },
+    {
+      "name": "NLP",
+      "category": "Data Science & ML",
+      "aliases": ["nlp", "natural language processing"]
+    },
+    {
+      "name": "Data Science",
+      "category": "Data Science & ML",
+      "aliases": ["data science", "data analytics", "data analysis"]
+    },
+    {
+      "name": "Computer Vision",
+      "category": "Data Science & ML",
+      "aliases": ["computer vision", "cv", "opencv"]
+    },
+    {
+      "name": "Linux",
+      "category": "Tools & DevOps",
+      "aliases": ["linux", "bash", "shell scripting", "unix"]
+    },
+    {
+      "name": "Jira",
+      "category": "Tools & DevOps",
+      "aliases": ["jira", "agile", "scrum"]
+    }
+  ]
+}
