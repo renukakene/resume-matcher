@@ -2,7 +2,16 @@
  * API Service for communicating with the FastAPI backend
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api";
+function getApiBaseUrl() {
+  let url = (import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api").trim();
+  url = url.replace(/\/+$/, "");
+  if (!url.endsWith("/api")) {
+    url = `${url}/api`;
+  }
+  return url;
+}
+
+const API_BASE_URL = getApiBaseUrl();
 
 export async function checkBackendHealth() {
   try {
@@ -19,14 +28,21 @@ export async function analyzeResume(file, jobDescription) {
   formData.append("resume", file);
   formData.append("job_description", jobDescription);
 
-  const res = await fetch(`${API_BASE_URL}/analyze`, {
-    method: "POST",
-    body: formData,
-  });
+  let res;
+  try {
+    res = await fetch(`${API_BASE_URL}/analyze`, {
+      method: "POST",
+      body: formData,
+    });
+  } catch (networkErr) {
+    throw new Error(
+      `Cannot connect to backend (${API_BASE_URL}). If your backend is on Render free tier, it spins down after inactivity and takes ~45 seconds to wake up. Please refresh or try again in a moment.`
+    );
+  }
 
   if (!res.ok) {
     const errorData = await res.json().catch(() => null);
-    const detail = errorData?.detail || `Server error (${res.status})`;
+    const detail = errorData?.detail || `Server returned error (${res.status})`;
     throw new Error(detail);
   }
 
